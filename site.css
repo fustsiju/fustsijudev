@@ -762,7 +762,7 @@ input{
         left:50%;
         transform: translate(-50%);
         width: 250px;
-        height: 600px;
+        height: 575px;
         border-radius: 20px;
         background-color: #111111;  
     }
@@ -890,7 +890,7 @@ input{
         left:50%;
         transform: translate(-50%);
         width: 250px;
-        height: 600px;
+        height: 575px;
         border-radius: 20px;
         background-color: #111111; 
     }
@@ -1018,7 +1018,7 @@ input{
         left:50%;
         transform: translate(-50%);
         width: 250px;
-        height: 600px;
+        height: 575px;
         border-radius: 20px;
         background-color: #111111; 
     }
