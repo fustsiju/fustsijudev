@@ -323,11 +323,11 @@ input{
     .av{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: fixed;
-        top: 75%;
+        top: 74%;
         left:75px;
         width: 200px;
         height: 50px;
-        font-size: 15px;
+        font-size: 20px;
         color: #417EE4;
         text-align: center;
     }
@@ -340,7 +340,7 @@ input{
     .bcc{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: fixed;
-        top: 450px;
+        top: 50%;
         left:75px;
         width: 200px;
         height: 50px;
@@ -403,7 +403,7 @@ input{
     .bcc{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: fixed;
-        top: 450px;
+        top: 52%;
         left:75px;
         width: 200px;
         height: 50px;
@@ -414,7 +414,7 @@ input{
     .av{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: fixed;
-        top: 75%;
+        top: 67%;
         left:75px;
         width: 200px;
         height: 50px;
@@ -431,7 +431,7 @@ input{
     .local{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: fixed;
-        top: 65%;
+        top: 61%;
         left:75px;
         width: 200px;
         height: 50px;
@@ -448,14 +448,14 @@ input{
     #ifsul{
         position: fixed;
         left:120px;
-        top:315px;
-        width: 125px;
-        height: 125px;
+        top:40%;
+        width: 110px;
+        height: 110px;
       }
       #loc{
           position: fixed;
           left:160px;
-          top:63%;
+          top:59%;
           width: 30px;
           height: 30px;
       }
@@ -717,6 +717,14 @@ input{
           width: 20px;
           height: 20px;
       }
+      #stt{
+        position: relative;
+        left:505px;
+        top:100px;
+        transform: translate(-50%);
+        width: 550px;
+        height: 100px;
+    }
     .bar3{
         position: absolute;
         left:900px;
@@ -728,4 +736,389 @@ input{
         cursor: pointer;
         transition: 0.5s;
     } 
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait and Landscape */
+@media(max-width: 568px){
+    .content{
+        position: absolute;
+        left:50px;
+        top:700px;
+        border-radius:20px;
+        width:80%;
+        height:88%;
+        background: white;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .nav{
+        position: absolute;
+        top:50px;
+        left:50%;
+        transform: translate(-50%);
+        width: 250px;
+        height: 88%;
+        border-radius: 20px;
+        background-color: #111111; 
+    }
+    .nome{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top: 170px;
+        left:50%;
+        transform: translate(-50%);
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+        color: #417EE4;
+        padding-bottom: 15px;;
+        border-bottom: 2px solid black;
+        text-align: center;
+    }
+    .midias{
+        position: absolute;
+        top:80%;
+        padding-top:10px; 
+    }
+    .bcc{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top: 60%;
+        left:50%;
+        transform: translate(-50%);
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        color: #417EE4;
+        text-align: center;
+    }
+    .local{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top: 465px;
+        left:-375px;
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        color: #417EE4;
+        text-align: center;
+    }
+    .av{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top:70%;
+        left:50%;
+        transform: translate(-50%);
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        color: #417EE4;
+        text-align: center;
+    }
+    #ifsul{
+        position: fixed;
+        left:50%;
+        transform: translate(-50%);
+        top:250px;
+        width: 100px;
+        height: 100px;
+      }
+      #loc{
+          position: fixed;
+          left:-160px;
+          top:455px;
+          width: 20px;
+          height: 20px;
+      }
+      #foto{
+        position: fixed;
+        left:50%;
+        transform: translate(-50%);
+        top:30px;
+        width: 150px;
+        height: 150px; 
+        border-radius: 50%;
+        border: 5px solid #417EE4;
+      }
+      #stt{
+        position: relative;
+        left:505px;
+        top:100px;
+        transform: translate(-50%);
+        width: 550px;
+        height: 100px;
+    }
+    .bar3{
+        position: absolute;
+        left:900px;
+        width: 0px;
+        height: 0px;
+        border: 2px solid #417EE4;
+        margin: 6px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+    } 
+
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media(max-width: 667px){
+    .content{
+        position: absolute;
+        left:50px;
+        top:700px;
+        border-radius:20px;
+        width:80%;
+        height:88%;
+        background: white;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .nav{
+        position: absolute;
+        top:50px;
+        left:50%;
+        transform: translate(-50%);
+        width: 250px;
+        height: 88%;
+        border-radius: 20px;
+        background-color: #111111; 
+    }
+    .nome{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top: 170px;
+        left:50%;
+        transform: translate(-50%);
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+        color: #417EE4;
+        padding-bottom: 15px;;
+        border-bottom: 2px solid black;
+        text-align: center;
+    }
+    .midias{
+        position: absolute;
+        top:80%;
+        padding-top:10px; 
+    }
+    .bcc{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top: 60%;
+        left:50%;
+        transform: translate(-50%);
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        color: #417EE4;
+        text-align: center;
+    }
+    .local{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top: 465px;
+        left:-375px;
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        color: #417EE4;
+        text-align: center;
+    }
+    .av{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top:70%;
+        left:50%;
+        transform: translate(-50%);
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        color: #417EE4;
+        text-align: center;
+    }
+    #ifsul{
+        position: fixed;
+        left:50%;
+        transform: translate(-50%);
+        top:250px;
+        width: 100px;
+        height: 100px;
+      }
+      #loc{
+          position: fixed;
+          left:-160px;
+          top:455px;
+          width: 20px;
+          height: 20px;
+      }
+      #foto{
+        position: fixed;
+        left:50%;
+        transform: translate(-50%);
+        top:30px;
+        width: 150px;
+        height: 150px; 
+        border-radius: 50%;
+        border: 5px solid #417EE4;
+      }
+      #stt{
+        position: relative;
+        left:505px;
+        top:100px;
+        transform: translate(-50%);
+        width: 550px;
+        height: 100px;
+    }
+    .bar3{
+        position: absolute;
+        left:900px;
+        width: 0px;
+        height: 0px;
+        border: 2px solid #417EE4;
+        margin: 6px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+    } 
+
+}
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media(max-width: 736px){
+    .content{
+        position: absolute;
+        left:50px;
+        top:700px;
+        border-radius:20px;
+        width:80%;
+        height:88%;
+        background: white;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .nav{
+        position: absolute;
+        top:50px;
+        left:50%;
+        transform: translate(-50%);
+        width: 250px;
+        height: 600px;
+        border-radius: 20px;
+        background-color: #111111; 
+    }
+    .nome{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top: 170px;
+        left:50%;
+        transform: translate(-50%);
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+        color: #417EE4;
+        padding-bottom: 15px;;
+        border-bottom: 2px solid black;
+        text-align: center;
+    }
+    .midias{
+        position: absolute;
+        top:80%;
+        padding-top:10px; 
+    }
+    .bcc{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top: 60%;
+        left:50%;
+        transform: translate(-50%);
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        color: #417EE4;
+        text-align: center;
+    }
+    .local{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top: 465px;
+        left:-375px;
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        color: #417EE4;
+        text-align: center;
+    }
+    .av{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        top:70%;
+        left:50%;
+        transform: translate(-50%);
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        color: #417EE4;
+        text-align: center;
+    }
+    #ifsul{
+        position: fixed;
+        left:50%;
+        transform: translate(-50%);
+        top:250px;
+        width: 100px;
+        height: 100px;
+      }
+      #loc{
+          position: fixed;
+          left:-560px;
+          top:455px;
+          width: 20px;
+          height: 20px;
+      }
+      #foto{
+        position: fixed;
+        left:50%;
+        transform: translate(-50%);
+        top:30px;
+        width: 150px;
+        height: 150px; 
+        border-radius: 50%;
+        border: 5px solid #417EE4;
+      }
+      #stt{
+        position: relative;
+        left:505px;
+        top:100px;
+        transform: translate(-50%);
+        width: 550px;
+        height: 100px;
+    }
+    .bar3{
+        position: absolute;
+        left:900px;
+        width: 0px;
+        height: 0px;
+        border: 2px solid #417EE4;
+        margin: 6px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.5s;
+    } 
+
 }
