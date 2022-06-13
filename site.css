@@ -226,7 +226,7 @@ input{
         left:325px;
         top:50px;
         border-radius:20px;
-        width:70%;
+        width:80%;
         height:90%;
         background: white;
         overflow: hidden;
@@ -289,8 +289,8 @@ input{
         position: relative;
         left:50%;
         transform: translate(-50%);
-        width: 1000px;
-        height: 150px;
+        width: 1250px;
+        height: 200px;
     }
     #loc{
         position: fixed;
@@ -306,7 +306,7 @@ input{
         left:325px;
         top:50px;
         border-radius:20px;
-        width:70%;
+        width:75%;
         height:90%;
         background: white;
         overflow: hidden;
@@ -510,11 +510,11 @@ input{
     .local{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position: fixed;
-        top: 65%;
+        top: 465px;
         left:75px;
         width: 200px;
         height: 50px;
-        font-size: 18px;
+        font-size: 13px;
         color: #417EE4;
         text-align: center;
     }
